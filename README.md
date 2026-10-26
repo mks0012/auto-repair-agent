@@ -2,17 +2,17 @@
 
 An intelligent, agentic workflow for autonomous code generation and iterative debugging. This system leverages **LangGraph** to orchestrate specialized agents that plan, generate, and critique code in a sandbox environment.
 
-## 🚀 Key Features
+##  Key Features
 * **Agentic Workflow**: Uses a defined graph structure to manage code generation state.
 * **Iterative Debugging**: The 'Critic' agent reviews sandbox execution results and feeds errors back into the 'Generator' for self-correction.
 * **State Management**: Robust hydration of conversation history and code state between the React frontend and FastAPI backend.
 
-## 🛠 Tech Stack
+##  Tech Stack
 * **Frontend**: Next.js (TypeScript), Tailwind CSS.
 * **Backend**: FastAPI, Uvicorn.
 * **AI Orchestration**: LangGraph, Groq API.
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 * Python 3.12+
@@ -32,7 +32,7 @@ npm install
 npm run dev
 
 
-🧠 Architecture
+ Architecture
 graph/: Contains the LangGraph definition and state logic.
 
 nodes/: Modular definitions for Planner, Generator, and Critic agents.
